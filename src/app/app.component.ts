@@ -6,10 +6,9 @@ import { TrafficComponent } from "./dashboard/traffic/traffic.component";
 import { TicketsComponent } from "./dashboard/tickets/tickets.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  templateUrl: './app.component.html',
-  imports: [HeaderComponent, ServerStatusComponent, TrafficComponent, TicketsComponent],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    imports: [HeaderComponent, ServerStatusComponent, TrafficComponent, TicketsComponent]
 })
 export class AppComponent {
   title = 'traffic-data';

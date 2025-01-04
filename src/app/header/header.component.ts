@@ -5,7 +5,7 @@ import { ButtonComponent } from '../shared/button/button.component';
   selector: 'app-header',
   imports: [ButtonComponent],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
 
